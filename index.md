@@ -12,6 +12,17 @@ The tournament consists on programming virtual players capable of automatic game
 
 The playing field is a matrix of cells with varying dimensions (X = [20, 60] and X = [20, 80]), each cell in the matrix may possess or elements in it, and likewise can run effects on entities that are on it.
 
+![useful image]({{ site.url }}/assets/1.png)
+
+### EFFECTS AND PROPERTIES
+
+Before getting into other features of the game it is necessary to explain what are the effects because they are present in almost all elements of the game. In the game there are two types of effects:
+
+-	Single: This type of effects affects a property only once in the game to be assigned to an entity (see entities)
+-	Permanent: This type of effects affects a property, each turn of the game to be assigned to an entity (see entities)
+The properties on the other hand are the characteristics that describe entities ("Life", "Defense", "Attack", "Gold"), each of these has a current value and a maximum that can not exceed For example gold a player is the sum of the "Gold" property of all its heroes.
+
+
 
 
 ```markdown
