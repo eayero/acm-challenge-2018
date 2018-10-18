@@ -22,33 +22,50 @@ Before getting into other features of the game it is necessary to explain what a
 -	Permanent: This type of effects affects a property, each turn of the game to be assigned to an entity (see entities)
 The properties on the other hand are the characteristics that describe entities ("Life", "Defense", "Attack", "Gold"), each of these has a current value and a maximum that can not exceed For example gold a player is the sum of the "Gold" property of all its heroes.
 
+### CELLS
 
+Each cells of the game, or boxes, has associated to a position (X, Y), in them can exist or not entities. Each cell in the game has the ability to add an effect to the entities to move toward it. To calculate the distance between two cells, we use the Euclidean distance. Thus three types of cells exist in the game:
+-	Normal
+-	Water
+-	Fire
 
+### ITEMS
 
-```markdown
-Syntax highlighted code block
+Items, or articles, of the game are elements having the entities, or they can buy with your gold. There are two types of articles: weapons and effects, each item has a set of effects that moves to the entity that acquires. In the specific case of weapons are the only items that can be used in an attack, and are distinguished from the rest by having Scope (Scope) and Damage (Damage). **An entity can have as many items as you can buy.**
 
-# Header 1
-## Header 2
-### Header 3
+### ENTITIES
+The entities are the elements with "Life" on the game, there are two types of entities which can be called obstacles, or objects that are distributed all over the field, and heroes. The heroes are the protagonists of the game and differ from the rest because they can perform actions (Buy Items, Move, Attack or Wait), also have between its properties the value of attack.
 
-- Bulleted
-- List
+To create a hero we have 1600 points, which we must distribute in its four characteristics (Life, Attack, Defense, Gold) so that none of them have their initial value 0. A hero also has two permanent effects one for life and one for gold, that change the current value of these properties at each iteration, for it have 5 points to distribute as with the properties.
 
-1. Numbered
-2. List
+At the beginning of the game is placed in each cell an entity type object, and the heroes of each player are placed clustered in the corners.
 
-**Bold** and _Italic_ and `Code` text
+### THE ACTIONS
+Each player by iteration can make a single action on a specific hero. The time it takes to give the answer must be less than 1000ms.
 
-[Link](url) and ![Image](src)
-```
+**Action Move**
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The move action can be executed whenever the cell to where you want to move the hero exists and not occupied by another entity, the cell must be one of the cells adjacent to the current position of the hero.
 
-### Jekyll Themes
+**Action Buy**
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/eayero/acm-challenge-2018/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+The action buy an item carries a gold expense at the entity performing the action. To buy an item the hero must be possess sufficient amount of gold otherwise the action will not run. An entity can be have associated many items as you can buy.
 
-### Support or Contact
+**Action Attack**
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+To a hero can to attack must select an item to perform the attack (weapon type) may attack any entity which is at a distance equal or less than the range of the selected item. If as a result of an attack an entity loses all his life points, the gold that this has passed to the entity that has defeated him.
+
+*Important: A hero can die as a result of an attack on an obstacle and the same rules apply to gold.*
+
+**Action Wait**
+
+A player can decide not to take any action, in this case to define, the hero lose 50 points if possesses gold and 10 points of life.
+
+*Important: A hero can die result of this action.*
+
+### THE LIBRARY
+
+The **uci.acm.challenge** library implements a computational variant of the game Battles in the Caribbean and is distributed through the **uci.acm.challenge.jar** file. The library documentation is also available.
+
+Running the command line: **java -jar uci.acm.challenge.jar**
+Appears a window where you can choose 2 strategies implemented and play.
