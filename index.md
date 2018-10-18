@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## VI Torneo Caribeño de Jugadores Virtuales “ICPChallenge” 
 
-You can use the [editor on GitHub](https://github.com/eayero/acm-challenge-2018/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The tournament consists on programming virtual players capable of automatic game playing, i.e. without human interaction. Every 2016 ACM-ICPC Caribbean finalist team may submit one virtual player implementation. A virtual player must be implemented in Java using a single file containing the source code describing a single class. To submit a virtual player, the source code must be sent before november 7 at the address acm-icpc@uci.cu. The message should contain the subject: ICPChallenge "team official name" (for example: ICPChallenge "MyTeam").
 
 ### Markdown
 
