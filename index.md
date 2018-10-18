@@ -8,6 +8,11 @@ The tournament consists on programming virtual players capable of automatic game
 
 ``` The game consists of an improved version with new players and items from the previous edition ```
 
+### THE FIELD
+
+The playing field is a matrix of cells with varying dimensions (X = [20, 60] and X = [20, 80]), each cell in the matrix may possess or elements in it, and likewise can run effects on entities that are on it.
+
+
 
 ```markdown
 Syntax highlighted code block
