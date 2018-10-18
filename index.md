@@ -69,3 +69,21 @@ The **uci.acm.challenge** library implements a computational variant of the game
 
 Running the command line: **java -jar uci.acm.challenge.jar**
 Appears a window where you can choose 2 strategies implemented and play.
+
+### IMPLEMENTING A PLAYER
+
+The uci.acm.challenge library allows compete to virtual players that can be implemented using the library itself.
+
+To create a tactic is only necessary to write a class that implements the interface uci.acm.challenge.Player.Player. This interface contains the methods needed to their ejecution, each of them is identified in the documentation.
+
+A video tutorial is also available, which is shown as start a project.
+ The implementation of a demonstration class is also attached. Commented
+
+### ABOUT THE TOURNAMENT
+The tournament will make a round of all against all, to stay with the 8 implementations that more games will be able to overcome. The players crosses elected qualifying will be held until only players subtract the final.
+The dimensions of the field, in each round decreases up to 20x20
+
+### TAKE PART OF THE ACTION
+Every team participating in the regional contest, has the option of sending personalized hero and an item. In both cases should follow a similar format description, and must send each image suggesting, preferably with a transparent background.
+The deadline is for sending the heroes and items is October 20, after this date on day 21 an update of the library will be published with the heroes of each team
+
