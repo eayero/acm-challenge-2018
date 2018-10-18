@@ -12,7 +12,7 @@ The tournament consists on programming virtual players capable of automatic game
 
 The playing field is a matrix of cells with varying dimensions (X = [20, 60] and X = [20, 80]), each cell in the matrix may possess or elements in it, and likewise can run effects on entities that are on it.
 
-![useful image]({{ site.url }}/assets/1.png)
+![useful image]({{ site.url }}/acm-challenge-2018/assets/1.png)
 
 ### EFFECTS AND PROPERTIES
 
