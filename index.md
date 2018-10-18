@@ -2,9 +2,12 @@
 
 The tournament consists on programming virtual players capable of automatic game playing, i.e. without human interaction. Every 2016 ACM-ICPC Caribbean finalist team may submit one virtual player implementation. A virtual player must be implemented in Java using a single file containing the source code describing a single class. To submit a virtual player, the source code must be sent before november 7 at the address acm-icpc@uci.cu. The message should contain the subject: ICPChallenge "team official name" (for example: ICPChallenge "MyTeam").
 
-### Markdown
+### The Game
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+"Battles in the Caribbean II" game was designed to be easy to use and easy to understand overall dynamics. In this sense it can be described quickly as a strategy tournament, where each player has a team of three heroes who have resources and individual properties. Each hero has different weapons, items and your own gold that can decrease or increase in response to game development. Each team may perform one action per turn (attack, move, buy, rest), alternating with the opposing team, the ultimate goal of the game is to accumulate as much gold as possible.
+
+``` The game consists of an improved version with new players and items from the previous edition ```
+
 
 ```markdown
 Syntax highlighted code block
