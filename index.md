@@ -36,6 +36,9 @@ Items, or articles, of the game are elements having the entities, or they can bu
 ### ENTITIES
 The entities are the elements with "Life" on the game, there are two types of entities which can be called obstacles, or objects that are distributed all over the field, and heroes. The heroes are the protagonists of the game and differ from the rest because they can perform actions (Buy Items, Move, Attack or Wait), also have between its properties the value of attack.
 
+![useful image]({{ site.url }}/acm-challenge-2018/assets/entities.png)
+
+
 To create a hero we have 1600 points, which we must distribute in its four characteristics (Life, Attack, Defense, Gold) so that none of them have their initial value 0. A hero also has two permanent effects one for life and one for gold, that change the current value of these properties at each iteration, for it have 5 points to distribute as with the properties.
 
 At the beginning of the game is placed in each cell an entity type object, and the heroes of each player are placed clustered in the corners.
@@ -100,4 +103,4 @@ The code example are real player of the first version
 
 [Demo 2]({{ site.url }}/acm-challenge-2018/assets/demo2.java)
 
-
+[Game JAR]({{ site.url }}/acm-challenge-2018/assets/tournament-2018-1.0.0.jar)
