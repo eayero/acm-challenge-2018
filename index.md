@@ -87,3 +87,9 @@ The dimensions of the field, in each round decreases up to 20x20
 Every team participating in the regional contest, has the option of sending personalized hero and an item. In both cases should follow a similar format description, and must send each image suggesting, preferably with a transparent background.
 The deadline is for sending the heroes and items is October 20, after this date on day 21 an update of the library will be published with the heroes of each team
 
+
+### Documents
+
+[Entities Descriptions]({{ site.url }}(/acm-challenge-2018/assets/1.png)
+
+
