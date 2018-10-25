@@ -88,8 +88,15 @@ Every team participating in the regional contest, has the option of sending pers
 The deadline is for sending the heroes and items is October 20, after this date on day 21 an update of the library will be published with the heroes of each team
 
 
-### Documents
+### Documents and Examples 
+
+The code example are real player of the first version 
 
 [Entities Descriptions]({{ site.url }}/acm-challenge-2018/assets/entities.pdf)
+
+[Tutorial]({{ site.url }}/acm-challenge-2018/assets/video.mp4)
+
+[Demo 1]({{ site.url }}/acm-challenge-2018/assets/demo1.java)
+[Demo 2]({{ site.url }}/acm-challenge-2018/assets/demo2.java)
 
 
