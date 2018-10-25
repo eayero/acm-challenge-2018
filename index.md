@@ -90,6 +90,6 @@ The deadline is for sending the heroes and items is October 20, after this date 
 
 ### Documents
 
-[Entities Descriptions]({{ site.url }}(/acm-challenge-2018/assets/1.png)
+[Entities Descriptions]({{ site.url }}/acm-challenge-2018/assets/entities.pdf)
 
 
