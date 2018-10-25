@@ -97,6 +97,7 @@ The code example are real player of the first version
 [Tutorial]({{ site.url }}/acm-challenge-2018/assets/video.mp4)
 
 [Demo 1]({{ site.url }}/acm-challenge-2018/assets/demo1.java)
+
 [Demo 2]({{ site.url }}/acm-challenge-2018/assets/demo2.java)
 
 
